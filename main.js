@@ -1,19 +1,13 @@
 var date = document.getElementById('dob');
-    var currentDate = new Date();
-    currentDate.setFullYear(currentDate.getFullYear() - 1);
-    var formattedDate = currentDate.toISOString().split('T')[0];
-    date.max = formattedDate;
-
-    function calAge() {
-      var date = document.getElementById('dob');
+var currentDate = new Date();
+currentDate.setFullYear(currentDate.getFullYear() - 1);
+var formattedDate = currentDate.toISOString().split('T')[0];
+date.max = formattedDate;
 
 function calAge() {
   var getAge = document.getElementById('getage');
   getAge.textContent = '';
 
-  var currentDate = new Date();
-  currentDate.setFullYear(currentDate.getFullYear() - 1);
-  
   var dobValue = date.value;
 
   if (!dobValue) {
@@ -37,8 +31,3 @@ function calAge() {
 
   getAge.textContent = 'Your age is: ' + age + ' years';
 }
-      }
-
-      
-      getAge.textContent = 'Your age is: ' + age + ' years';
-    }
