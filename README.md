@@ -2,11 +2,11 @@
 
 This simple web application allows users to calculate their age based on their date of birth. The application provides a user-friendly interface to input the date of birth and dynamically calculates the age, taking into account the current date.
 
-![App Screenshot](https://github.com/brijesh1802/CodeAlpha_Age_Calculator/Assets/img1.png)
+![App Screenshot](https://github.com/brijesh1802/CodeAlpha_Age_Calculator/blob/main/Assets/img1.png)
 
-![App Screenshot](https://github.com/brijesh1802/CodeAlpha_Age_Calculator/Assets/img2.png)
+![App Screenshot](https://github.com/brijesh1802/CodeAlpha_Age_Calculator/blob/main/Assets/img2.png)
 
-![App Screenshot](https://github.com/brijesh1802/CodeAlpha_Age_Calculator/Assets/img3.png)
+![App Screenshot](https://github.com/brijesh1802/CodeAlpha_Age_Calculator/blob/main/Assets/img3.png)
 
 ## Features
 
