@@ -1,6 +1,6 @@
 var date = document.getElementById('dob');
 var currentDate = new Date();
-currentDate.setFullYear(currentDate.getFullYear() - 1);
+//currentDate.setFullYear(currentDate.getFullYear() - 1);
 var formattedDate = currentDate.toISOString().split('T')[0];
 date.max = formattedDate;
 
